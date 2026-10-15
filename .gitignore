@@ -1,0 +1,40 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environments and tooling
+.venv/
+.env
+.env.*
+!.env.example
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pre-commit-cache/
+.coverage
+htmlcov/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+
+# Data, model weights, and generated artifacts
+data/raw/
+data/processed/
+models/weights/
+artifacts/
+runtime/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Notebooks
+.ipynb_checkpoints/
